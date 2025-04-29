@@ -1,0 +1,10 @@
+streamlit==1.32.0
+pandas==2.2.0
+numpy==1.26.3
+scikit-learn==1.4.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.23.0
+requests==2.31.0
+python-dotenv==1.0.0
+logging==0.4.9.6
+pathlib==1.0.1

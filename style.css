@@ -1,0 +1,108 @@
+/* Main container */
+.main {
+    background-color: #0E1117;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Title and headers */
+.title {
+    color: #FF4B4B;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Search input */
+.stTextInput>div>div>input {
+    background-color: #1E2130;
+    color: #FFFFFF;
+    border: 2px solid #2E3240;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.stTextInput>div>div>input:focus {
+    border-color: #FF4B4B;
+    box-shadow: 0 0 0 1px #FF4B4B;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #FF4B4B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #FF6B6B;
+    transform: translateY(-2px);
+}
+
+/* Recommendation cards */
+.recommendation-card {
+    background-color: #1E2130;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.recommendation-card h3 {
+    color: #FF4B4B;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.recommendation-card p {
+    color: #FFFFFF;
+    margin: 5px 0;
+}
+
+/* Error messages */
+.stAlert {
+    background-color: #2E3240;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Loading spinner */
+.stSpinner {
+    color: #FF4B4B;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .recommendation-card {
+        padding: 15px;
+    }
+    
+    .recommendation-card h3 {
+        font-size: 1.2rem;
+    }
+} 
